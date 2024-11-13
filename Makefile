@@ -8,7 +8,7 @@ requirements: requirements.txt
 	mkdir -p $(BUILD_DIR)
 	python3 -m pip install -r requirements.txt --target $(BUILD_DIR)
 
-app: $(BUILD_FILES)
+app: $(BUILD_FILES) requirements
 	mkdir -p $(APP_DIR)
 	rm -f "$(APP_DIR)/$(APP)"
 	cp -p $(BUILD_FILES) build
