@@ -1,0 +1,9 @@
+[Unit]
+Description=Running webodm_cleaner.service daily
+
+[Timer]
+OnCalendar=daily
+Persistent=true
+
+[Install]
+WantedBy=timers.target

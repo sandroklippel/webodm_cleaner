@@ -1,0 +1,12 @@
+[Unit]
+Description=cleans up old webodm tasks
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/webodm_cleaner
+User=odm
+Group=odm
+
+[Install]
+WantedBy=timers.target
