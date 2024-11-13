@@ -1,6 +1,6 @@
 {
     "username": "someone",
-    "password": "swordfish",
-    "url": "http://somewhere.com",
+    "password": "swordfish123",
+    "url": "http://localhost:8000",
     "days": 30
 }
