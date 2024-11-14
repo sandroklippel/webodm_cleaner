@@ -1,4 +1,5 @@
-# Service rules
+# Service rules (needs root)
+
 service: webodm_cleaner.service webodm_cleaner.timer
 	cp webodm_cleaner.service /etc/systemd/system
 	cp webodm_cleaner.timer /etc/systemd/system
