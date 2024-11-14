@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 Type=oneshot
-ExecStart=/usr/local/bin/webodm_cleaner
+ExecStart=/usr/local/bin/webodm_cleaner --config /usr/local/etc/cleaner.json
 User=odm
 Group=odm
 
