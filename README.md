@@ -4,4 +4,7 @@ Clears old webodm tasks, freeing up disk space.
 
 ## Install
 
-## Usage
+```
+$ make all
+$ sudo make install-all
+```
